@@ -1,0 +1,7 @@
+/* style.min.css */
+html,body{margin:0;padding:0;background:#000;overflow:hidden;height:100%}
+#gameContainer{position:relative;width:100vw;height:100vh;display:flex;justify-content:center;align-items:center}
+canvas{image-rendering:pixelated;background:#111}
+#ctaOverlay{position:absolute;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.7);display:flex;flex-direction:column;justify-content:center;align-items:center}
+#ctaOverlay button{padding:12px 24px;font-size:18px;color:#fff;background:#e91e63;border:none;border-radius:4px;cursor:pointer}
+#ctaOverlay img{width:120px;margin-bottom:16px}

@@ -1,0 +1,25 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, user-scalable=no, viewport-fit=cover" />
+  <title>BrickBreakerPlayable</title>
+  <link rel="stylesheet" href="style.min.css" />
+</head>
+<body>
+  <div id="gameContainer">
+    <!-- Portrait canvas: 320×480 px -->
+    <canvas id="gameCanvas" width="320" height="480"></canvas>
+
+    <!-- CTA overlay (only shown after ball misses or all bricks break) -->
+    <div id="ctaOverlay" style="display:none;">
+      <img src="assets/preview.jpg" alt="Play Full Game" />
+      <button id="ctaButton">PLAY FULL GAME</button>
+    </div>
+  </div>
+
+  <script src="main.min.js"></script>
+</body>
+</html>

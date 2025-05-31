@@ -1,0 +1,18 @@
+
+{
+  "title": "BrickBreakerSlice",
+  "version": "1.0",
+  "files": [
+    "index.html",
+    "main.min.js",
+    "style.min.css",
+    "assets/spritesheet.png",
+    "assets/brick_break.ogg"
+  ],
+  "frame": {
+    "width": 320,
+    "height": 480
+  },
+  "orientation": "portrait",
+  "preview": "assets/preview.jpg"
+}
